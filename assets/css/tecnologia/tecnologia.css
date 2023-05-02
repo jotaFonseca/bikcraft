@@ -1,0 +1,37 @@
+.technology-bg {
+    background-color: var(--cor-11);
+}
+
+.technology {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 62px;
+    padding: 80px;
+}
+
+.technology-content h2 {
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+
+.technology-content p {
+    margin-bottom: 20px;
+}
+
+.technology-content a {
+    font: 600 1.5rem/1.5 "Poppins", sans-serif;
+    text-transform: uppercase;
+}
+
+.technology-description {
+    display: flex;
+    gap: 0 50px;
+    margin-top: 80px;
+}
+
+.technology-img {
+    height: 100%;
+    object-fit: cover;
+}
+
+
