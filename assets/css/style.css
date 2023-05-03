@@ -4,6 +4,7 @@
 
 /* Home */
 @import "./home/main.css";
+@import "./home/parceiros.css";
 
 /* Utilitários */
 @import "./utilidades/componentes.css";
