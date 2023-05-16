@@ -17,3 +17,6 @@
 
 /* Tecnologia */
 @import "./tecnologia/tecnologia.css";
+
+/* Seguros */
+@import "./seguros/seguros.css";

@@ -1,0 +1,69 @@
+.security-bg{
+    background-color: var(--cor-11);
+}
+
+.security {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    align-items: center;
+}
+
+.security h2 {
+    grid-column: 1/-1;
+}
+
+.security-item{
+    background-color: var(--cor-12);
+    padding: 32px 32px 32px 60px;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.security-item h3 {
+    margin-bottom: 40px;
+}
+
+.security-item span {
+    grid-column: 2;
+    display: block;
+    text-align: right;
+}
+
+.security-item ul {
+    grid-column: 1/-1;
+    margin-bottom: 32px;
+}
+
+.security-item li {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.security-item li + li {
+    margin-top: 20px;
+}
+
+.security-item li::before {
+    content: '';
+    display: inline-block;
+    width: 13px;
+    height: 9px;
+    background-image: url("../../img/icones/lista.svg");
+    position: absolute;
+    left: -21px;
+}
+
+.security-item a {
+    grid-column: 1/-1;
+}
+
+@media(max-width: 800px) {
+    .security{
+        grid-template-columns: 1fr;
+    }
+}
