@@ -20,13 +20,31 @@
 }
 
 .button:hover {
-    padding: 20px 45px;
     background: linear-gradient(#ffb60d, #e59317);
 }
 
 .button.secundario {
     background: var(--cor-10);
     color: var(--cor-2);
+}
+
+.button.seta {
+    display: flex;
+    align-items: center;
+}
+
+.button.seta::after {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 10px;
+    margin-left: 12px;
+    background-image: url("../../img/icones/seta.svg");
+    transition: transform 0.2s;
+}
+
+.button.seta:hover::after {
+    transform: translateX(4px);
 }
 
 .link {
