@@ -8,6 +8,9 @@
 @import "./home/parceiros.css";
 @import "./home/depoimento.css";
 
+/* Orçamento */
+@import "./orcamento/orcamento.css";
+
 /* Utilidades */
 @import "./utilidades/componentes.css";
 @import "./utilidades/tipografia.css";
