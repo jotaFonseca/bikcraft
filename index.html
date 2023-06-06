@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.">
-    <link rel="preload" href="/assets/css/style.css" as="style">
-    <link rel="stylesheet" href="/assets/css/style.css" type="text/css">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="/assets/css/style.min.css" as="style">
+    <link rel="stylesheet" href="/assets/css/style.min.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
@@ -40,14 +41,14 @@
     <main class="main-bg">
         <div class="main container">
             <div class="main-content">
-                <h1 class="font-1-xxl cor-0">Bicicletas feitas sob medida<span>.</span></h1>
-                <p class="font-2-l cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para
+                <h1 class="font-1-xxl cor-0" data-anime="200">Bicicletas feitas sob medida<span>.</span></h1>
+                <p class="font-2-l cor-5" data-anime="400">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para
                     você.
                     Explore o mundo na sua velocidade com a Bikcraft
                 </p>
-                <a class="button" href="./bicicletas.html">Escolha a sua</a>
+                <a class="button" data-anime="600" href="./bicicletas.html">Escolha a sua</a>
             </div>
-            <picture>
+            <picture data-anime="800">
                 <img class="main-photo" src="/assets/img/fotos/introducao.jpg" alt="Bicicleta elétrica preta">
             </picture>
         </div>
@@ -207,6 +208,8 @@
             <p class="footer-copy font-2-m cor-6">Bikcraft &copy Alguns direitos reservados</p>
         </div>
     </footer>
+
+    <script src="./assets/js/plugins/simple-anime.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 
